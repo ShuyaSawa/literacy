@@ -1,1 +1,42 @@
-body{background-color: black;}
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(25, 0, 50,0.8);
+}
+
+h1{
+    color:white;
+    padding: auto;
+    border-left: 10px;
+    border-bottom: solid 2px orangered
+}
+/*配色をSplat3にする*/
+
+h4{
+    color:#ffffff;
+}
+
+p{
+    color:bisque;
+}
+
+ul{
+    color:antiquewhite;
+}
+
+ol{
+    color:azure;
+}
+
+dl{
+    color:beige;
+}
+
+table{
+    background-color:aqua;
+}
+
+th{
+    background-color: blue;
+}
