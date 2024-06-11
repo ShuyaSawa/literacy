@@ -35,10 +35,12 @@ dl{
 
 table{
     background-color:aqua;
+    opacity: 0.8;
 }
 
 th{
-    background-color: blue;
+    color:yellowgreen;
+    background-color: rgba(0, 0, 255, 0.829);
 }
 
 address{
