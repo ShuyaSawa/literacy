@@ -34,8 +34,10 @@ dl{
 }
 
 table{
+    border:solid 1px black;/*縁取り*/
     background-color:aqua;
     opacity: 0.8;
+    padding:2px/*tableの余白*/
 }
 
 th{
