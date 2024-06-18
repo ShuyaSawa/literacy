@@ -34,16 +34,38 @@ dl{
 }
 
 table{
-    border:solid 1px black;/*縁取り*/
+    border:solid 1px #000;/*縁取り*/
+    border-collapse: collapse;
     background-color:aqua;
     opacity: 0.8;
     padding:2px/*tableの余白*/
 }
 
 th{
+    border:solid 1px #333;/*見出しの枠取り*/
     color:yellowgreen;
-    background-color: rgba(0, 0, 255, 0.829);
+    background-color: rgba(0, 0, 255, 0.8);
 }
+
+td{
+    border:dashed 1px #515151;/*テキストの枠取り*/
+    color:tomato;
+}
+.noborder{
+    border:none;
+}
+.border{
+    border-color: rgb(255, 225, 0);
+}
+
+table.second th,
+table.second td{
+    width:100%;
+    display: block;
+    color:#fff;
+}
+/*https://magazine.techacademy.jp/magazine/34474*/
+
 
 address{
     color:blueviolet
